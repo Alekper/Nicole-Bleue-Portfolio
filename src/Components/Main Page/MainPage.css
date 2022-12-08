@@ -1,0 +1,159 @@
+.main-page {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    cursor: pointer;
+}
+
+.mp-logo-cont {
+    display: flex;
+    position: static !important;
+    width: 85%;
+    justify-content: space-between !important;
+    align-items: center;
+    height: 20%;
+    margin: 0 auto;
+    padding: 30px;
+
+}
+
+.rectangle {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    height: auto;
+    width: auto;
+}
+
+.rectangle div {
+    display: flex;
+    width: 10px;
+    justify-content: flex-start;
+    margin-top: 30px;
+    margin-left: -35px;
+}
+
+.rectangle div button {
+    width: auto;
+    height: auto;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    align-self: baseline;
+}
+
+.rectangle div button:nth-child(2) {
+    margin-left: -10px;
+}
+
+.mp-buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+
+.mp-buttons button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    height: 20px;
+    /* width: 98px; */
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: lowercase;
+    margin-top: 20px;
+    z-index: 99;
+}
+
+.mp-content {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    align-self: center;
+
+    margin-right: -30px;
+}
+
+.design-options,
+.docuport {
+    margin-top: -80px;
+    /* width: 10%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+
+}
+
+.design-options p:nth-child(2) {
+    margin-top: -10px;
+}
+
+.design-options p,
+.docuport button p,
+.docuport button,
+.docuport h1 {
+    background: transparent;
+    border: none;
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    /* width: 100%; */
+    /* margin-left: -30px; */
+    height: 22px;
+    width: 200px;
+    margin-top: 0;
+    padding-left: 0 !important;
+
+
+}
+
+.docuport h1 {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0 !important;
+
+}
+
+.docuport p {
+    margin: 0 !important;
+}
+
+.screenshot-container {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto !important;
+    scroll-behavior: smooth;
+    max-height: 80vh;
+    padding-bottom: 30px !important;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    margin-right: -50px;
+}
+
+.screenshot-container::-webkit-scrollbar {
+    display: none;
+}
+
+.screenshot-container div img {
+    height: 420px;
+    width: 736px;
+    border-radius: 0 50px;
+
+
+}

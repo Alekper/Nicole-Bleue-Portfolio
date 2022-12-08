@@ -1,3 +1,8 @@
+# Portfolio
+
+Designed by [Narmin Mustafayeva](https://www.instagram.com/logowoman_/).  
+As a creative person, talented Narmin designed this website to provide information about her UX/UI works and about cover songs performed by her, under the nickname [Nicole Bleue](https://www.instagram.com/nicolebleue/).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
